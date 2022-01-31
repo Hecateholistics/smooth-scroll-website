@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Form, FormContent, FormH1, FormInput, FormLabel, FromWrap, Icon } from './SigninElements';
+import { Container, Form, FormContent, FormH1, FormInput, FormLabel, FromWrap, Icon, FormButton, Text } from './SigninElements';
 
 const SignIn = () => {
     return <>
