@@ -1,20 +1,6 @@
 
-import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Routes from './Application/routes';
 
-import Home from './pages';
-import SigninPage from './pages/signin';
-
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" component={Home} exact />
-        <Route path="/signin" component={SigninPage} exact />
-      </Routes>
-      <Home />
-    </Router>
-  );
-}
+const App = () => <Routes />;
 
 export default App;
