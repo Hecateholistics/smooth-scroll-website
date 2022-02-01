@@ -6,7 +6,7 @@ import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false)
-    const changeNav = () => {
+    const ChangeNav = () => {
         if (window.scrollY >= 80) {
             setScrollNav(true)
         } else {
@@ -14,7 +14,7 @@ const Navbar = ({ toggle }) => {
         }
 
         useEffect(() => {
-            window.addEventListener('scroll', changeNav)
+            window.addEventListener('scroll', ChangeNav)
         }, [])
 
     }
